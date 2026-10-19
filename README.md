@@ -4,7 +4,7 @@ An evidence-first workspace for investigating failures across services. Import l
 
 The application does not monitor systems or fix them automatically. It works on immutable uploaded log snapshots. AI suggestions remain unconfirmed; engineers decide what to investigate next.
 
-## Feature Screenshot
+## Dashboard Preview
 
 <img width="2261" height="1218" alt="image" src="https://github.com/user-attachments/assets/a3d223bb-5cc3-483a-a9de-f700cef4ccf1" />
 
