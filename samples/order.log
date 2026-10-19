@@ -1,0 +1,15 @@
+2026-10-18T14:02:01Z INFO [order] [trace=deploy-17] Order service build 1.8.2 started
+2026-10-18T14:02:10Z INFO [order] [trace=req-a01] Checkout accepted order=ORD-1042
+2026-10-18T14:02:11Z INFO [order] [trace=req-a01] Inventory reservation requested order=ORD-1042
+2026-10-18T14:02:12Z INFO [order] [trace=req-a01] Inventory reserved order=ORD-1042
+2026-10-18T14:02:13Z INFO [order] [trace=req-a01] Payment requested order=ORD-1042
+2026-10-18T14:02:23Z ERROR [order] [trace=req-a01] Payment request failed: connection timeout after 10000 ms order=ORD-1042
+2026-10-18T14:02:24Z WARN [order] [trace=req-a01] Order cancelled reason=PAYMENT_TIMEOUT order=ORD-1042
+2026-10-18T14:03:10Z INFO [order] [trace=req-a02] Checkout accepted order=ORD-1043
+2026-10-18T14:03:12Z INFO [order] [trace=req-a02] Inventory reserved order=ORD-1043
+2026-10-18T14:03:23Z ERROR [order] [trace=req-a02] Payment request failed: connection timeout after 10000 ms order=ORD-1043
+2026-10-18T14:03:24Z WARN [order] [trace=req-a02] Order cancelled reason=PAYMENT_TIMEOUT order=ORD-1043
+2026-10-18T14:04:00Z INFO [order] [trace=health-order] Order service health=UP
+2026-10-18T14:05:10Z INFO [order] [trace=req-a03] Checkout accepted order=ORD-1044
+2026-10-18T14:05:23Z ERROR [order] [trace=req-a03] Payment request failed: connection timeout after 10000 ms order=ORD-1044
+2026-10-18T14:05:24Z WARN [order] [trace=req-a03] Order cancelled reason=PAYMENT_TIMEOUT order=ORD-1044

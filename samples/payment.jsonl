@@ -1,0 +1,9 @@
+{"timestamp": "2026-10-18T14:02:02Z", "service": "payment", "level": "INFO", "traceId": "deploy-17", "message": "Payment service build 1.8.2 started"}
+{"timestamp": "2026-10-18T14:02:03Z", "service": "payment", "level": "INFO", "traceId": "deploy-17", "message": "Configuration loaded: processorHost=processor.internal processorPort=9443"}
+{"timestamp": "2026-10-18T14:02:13Z", "service": "payment", "level": "INFO", "traceId": "req-a01", "message": "Processor connection attempt order=ORD-1042 host=processor.internal port=9443"}
+{"timestamp": "2026-10-18T14:02:23Z", "service": "payment", "level": "ERROR", "traceId": "req-a01", "message": "java.net.SocketTimeoutException: connect timed out; processor.internal:9443"}
+{"timestamp": "2026-10-18T14:03:13Z", "service": "payment", "level": "INFO", "traceId": "req-a02", "message": "Processor connection attempt order=ORD-1043 host=processor.internal port=9443"}
+{"timestamp": "2026-10-18T14:03:23Z", "service": "payment", "level": "ERROR", "traceId": "req-a02", "message": "java.net.SocketTimeoutException: connect timed out; processor.internal:9443"}
+{"timestamp": "2026-10-18T14:04:00Z", "service": "payment", "level": "WARN", "traceId": "health-payment", "message": "Dependency health=DEGRADED processor connection timed out; process health=UP"}
+{"timestamp": "2026-10-18T14:05:13Z", "service": "payment", "level": "INFO", "traceId": "req-a03", "message": "Processor connection attempt order=ORD-1044 host=processor.internal port=9443"}
+{"timestamp": "2026-10-18T14:05:23Z", "service": "payment", "level": "ERROR", "traceId": "req-a03", "message": "java.net.SocketTimeoutException: connect timed out; processor.internal:9443"}

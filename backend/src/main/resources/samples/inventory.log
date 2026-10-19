@@ -1,0 +1,10 @@
+2026-10-18T14:02:00Z INFO [inventory] [trace=deploy-17] Inventory service build 1.8.1 started
+2026-10-18T14:02:11Z INFO [inventory] [trace=req-a01] Stock checked product=SKU-42 available=18
+2026-10-18T14:02:12Z INFO [inventory] [trace=req-a01] Stock reserved order=ORD-1042 quantity=1
+2026-10-18T14:02:25Z INFO [inventory] [trace=req-a01] Reservation released order=ORD-1042 quantity=1
+2026-10-18T14:03:11Z INFO [inventory] [trace=req-a02] Stock checked product=SKU-42 available=18
+2026-10-18T14:03:12Z INFO [inventory] [trace=req-a02] Stock reserved order=ORD-1043 quantity=1
+2026-10-18T14:03:25Z INFO [inventory] [trace=req-a02] Reservation released order=ORD-1043 quantity=1
+2026-10-18T14:04:00Z INFO [inventory] [trace=health-inventory] Inventory service health=UP
+2026-10-18T14:05:12Z INFO [inventory] [trace=req-a03] Stock reserved order=ORD-1044 quantity=1
+2026-10-18T14:05:25Z INFO [inventory] [trace=req-a03] Reservation released order=ORD-1044 quantity=1
