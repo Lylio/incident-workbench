@@ -4,6 +4,8 @@ An evidence-first workspace for investigating failures across services. Import l
 
 The application does not monitor systems or fix them automatically. It works on immutable uploaded log snapshots. AI suggestions remain unconfirmed; engineers decide what to investigate next.
 
+![Incident Workbench Architecture](docs/architecture.svg)
+
 ## Start the complete application
 
 Requires Docker Desktop or Docker Engine with Compose. Python 3 enables automatic first-launch port selection.
