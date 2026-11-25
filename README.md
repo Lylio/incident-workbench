@@ -4,6 +4,20 @@ An evidence-first workspace for investigating failures across services. Import l
 
 The application does not monitor systems or fix them automatically. It works on immutable uploaded log snapshots. AI suggestions remain unconfirmed; engineers decide what to investigate next.
 
+### Tech Stack
+
+| Component | Tech |
+| --- | --- |
+| Local Run | [![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#start-the-complete-application) |
+| Frontend | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+| Backend | ![Java JDK 21](https://img.shields.io/badge/JAVA-JDK%2021-green?style=for-the-badge) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-white?style=for-the-badge&logo=springboot&logoColor=6DB33F) |
+| AI Analysis | ![Spring AI](https://img.shields.io/badge/Spring_AI-white?style=for-the-badge&logo=spring&logoColor=6DB33F) [![OpenAI API](https://img.shields.io/badge/OpenAI_API-202123?style=for-the-badge)](#enable-real-ai-analysis) |
+| Database | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white) |
+| Client Build | ![npm](https://img.shields.io/badge/npm-white?style=for-the-badge&logo=npm&logoColor=CB3837) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) |
+| Server Build | ![Maven](https://img.shields.io/badge/Maven-white?style=for-the-badge&logo=apachemaven&logoColor=C71A36) |
+| CI | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) |
+| Repo Size | ![Repo Size](https://img.shields.io/github/repo-size/Lylio/incident-workbench?style=for-the-badge) |
+
 ## System Architecture & Data Flow
 
 ![Incident Workbench Architecture](docs/architecture.svg)
